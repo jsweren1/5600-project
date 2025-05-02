@@ -7,9 +7,9 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 df1 = pd.read_csv("final-project/all_trains1.csv")
 df1['Execution'] = 1
-df2 = pd.read_csv("all_trains2.csv")
+df2 = pd.read_csv("final-project/all_trains2.csv")
 df2['Execution'] = 2
-df3 = pd.read_csv("all_trains3.csv")
+df3 = pd.read_csv("final-project/all_trains3.csv")
 df3['Execution'] = 3
 
 df = pd.concat([df1, df2, df3])
