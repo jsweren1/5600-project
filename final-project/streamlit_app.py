@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.set_page_config(layout="wide")
-df1 = pd.read_csv("all_trains1.csv")
+df1 = pd.read_csv("final-project/all_trains1.csv")
 df1['Execution'] = 1
 df2 = pd.read_csv("all_trains2.csv")
 df2['Execution'] = 2
